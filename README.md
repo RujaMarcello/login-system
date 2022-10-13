@@ -25,6 +25,6 @@ Once the account is created you will be able to log in with it, if the account e
 First, open a terminal and run "npm install"
 To start the application you will need 2 terminals
   
-2. For the frontend in which we will run the commands "cd fronted" and "npm start" exactly in this order.
-3. For the backend in which we will run the commands "cd backend" and "nodemon server.js" exactly in this order.
+1. For the frontend in which we will run the commands "cd fronted" and "npm start" exactly in this order.
+2. For the backend in which we will run the commands "cd backend" and "nodemon server.js" exactly in this order.
 
