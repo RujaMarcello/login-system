@@ -20,7 +20,6 @@ export default function SignIn() {
     email: null,
     password: null,
   });
-  const [isFormValid, setIsFormValid] = useState(false);
   const validation = inputData.email && inputData.password;
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -31,6 +30,7 @@ export default function SignIn() {
       };
     });
   };
+
   async function sendData() {
     const URL = "http://localhost:3001/api/login-data";
     const response = await fetch(URL, {
@@ -61,18 +61,9 @@ export default function SignIn() {
         draggable: true,
         progress: undefined,
       });
-    } else if (response.status === 404) {
-      toast.error(data, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
     }
   }
+
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">

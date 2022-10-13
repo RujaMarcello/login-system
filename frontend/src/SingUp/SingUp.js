@@ -39,11 +39,13 @@ export default function SignUp() {
       };
     });
   };
+
   function isEmailCorrectWrite() {
     const mustInclude = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     console.log(mustInclude.test(inputFormData.email));
     return mustInclude.test(inputFormData.email);
   }
+
   async function sendData(event) {
     const emailIsCorectWriten = isEmailCorrectWrite();
     console.log(emailIsCorectWriten);
