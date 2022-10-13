@@ -21,9 +21,10 @@ The login system has the following options: creating an account with the followi
 Once the account is created you will be able to log in with it, if the account exists you will be redirected to a page in case the password or email is wrong, you will receive an alert in the upper right. If all fields from the register / login are not completed, you will not be able to send the data, the submit button will be disabled.
 
 
-# How to starta application
-
+# How to start application
+First, open a terminal and run "npm install"
 To start the application you will need 2 terminals
-1. For the frontend in which we will run the commands "cd fronted" and "npm start" exactly in this order.
-2. For the backend in which we will run the commands "cd backend" and "nodemon server.js" exactly in this order.
+  
+2. For the frontend in which we will run the commands "cd fronted" and "npm start" exactly in this order.
+3. For the backend in which we will run the commands "cd backend" and "nodemon server.js" exactly in this order.
 
