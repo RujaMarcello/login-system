@@ -22,7 +22,7 @@ Once the account is created you will be able to log in with it, if the account e
 
 
 # How to start application
-First, open a terminal and run "npm install"
+First, open a terminal and run "npm install"  
 To start the application you will need 2 terminals
   
 1. For the frontend in which we will run the commands "cd fronted" and "npm start" exactly in this order.
